@@ -9,7 +9,7 @@ void main(List<String> arguments) {
   // Langkah 3
   var list1 = [1, 2, null]; // Deklarasikan list1 dengan var
   print(list1);
-  var list3 = [0, ...?list1]; // Gunakan operator spread nullable
+  var list3 = [0, ...list1]; // Gunakan operator spread nullable
   print(list3); // Cetak list3
   print(list3.length);
 
